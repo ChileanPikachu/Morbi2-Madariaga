@@ -14,7 +14,7 @@ body {
 .logo {
     width: 200px;
     height: 200px;
-    background-image: url(./multimedia/Logo/logo.jpg);
+    background-image: url(multimedia/logo/logo.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -79,7 +79,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url(./multimedia/Imagen/Morbius.jpeg);
+    background-image: url(multimedia/imagen/Morbius.jpeg);
     background-position: top;
     background-size: cover;
     margin-bottom: 0px;
