@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #829A8E;
+}
+
+body {
+    background-image: url(./multimedia/header/collage.jpg);
+    background-position: center;
+    background-size: fixed;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    background-image: url(./multimedia/Logo/logo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    color: white;
+    font-size: 40px;
+    line-height: 190px;
+    text-align: center;
+    animation-name: cruz;
+    animation-duration: 10s;
+}
+
+@keyframes cruz {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+        transform: translateY(-25px);
+    }
+
+    40% {
+        opacity: 1;
+        transform: translateY(50px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateX(25px);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translateX(-25px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
+
+.logo_2 {
+    text-decoration: line-through;
+}
+
+.logo_3 {
+    color: red;
+}
+
+.peliculas {
+    background-color: rgba(3, 84, 84, 0.5);
+    height: auto;
+    color: antiquewhite;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.jumbotronPadre {
+    background-color: #044140;
+}
+
+.jumbotron {
+    background-image: url(./multimedia/Imagen/Morbius.jpeg);
+    background-position: top;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.indexReseña {
+    padding: 0px 30px 15px 30px;
+    background-color: rgba(15, 49, 48, 0.9);
+    text-align: justify;
+}
+
+.indexListas {
+    font-size: 20px;
+    padding: 30px;
+    text-align: justify;
+    background: linear-gradient(to bottom, #01282A, #041E1F);
+}
+
+.indexMorbicancion_tabla {
+    background-color: #041E1F;
+}
+
+.morbicancion {
+    height: 350px;
+    overflow: auto;
+}
+
+.multimediaCarrusel {
+    background-color: #044140;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.multimediaEscenas {
+    text-align: center;
+    background: linear-gradient(to bottom, #0F3130, #01282A);
+}
+
+.multimediaEscenas img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.multimediaReparto {
+    text-align: center;
+    background: linear-gradient(to bottom, #01282A, #041E1F);
+}
+
+.multimediaReparto img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.multimediaVideo {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    background-color: #041E1F;
+    padding: 10px;
+}
+
+iframe {
+    height: 350px;
+}
+
+.noticias {
+    text-align: center;
+}
+
+.noticia1 {
+    background-color: #044140;
+}
+
+.noticia2 {
+    background-color: #0F3130;
+}
+
+.noticia3 {
+    background-color: #01282A;
+}
+
+.noticia4 {
+    background-color: #041E1F;
+}
+
+footer {
+    letter-spacing: 2px;
+}
